@@ -11,46 +11,11 @@ Every Record will have:
 ## Entities in a Budget system
 
 * [x] User
-        UserName
-        UserEamil
-        Userpassword
-
-* [x] Budget
-        EntryDate
-        ItemGroups (List of item groups)
-        Budget_type
-            Personal
-            Business
-        Report
-
-* [x] Item group
-        ItemGroupName
-        Items (List of items)
-        TotalAmount
-        percentangeFromTotalIncomeExpected
-        percentangeFromTotalIncomeReal
-
-* [x] Item
-        ItemName
-        ItemType
-            Input (In bank account)
-            Output (from Bank account)
-        SollAmount
-        IsAmount
-        quantity
-        AmountCurrency
-        Comment
-        EntryDate
-
+* [x] Project
 * [x] Report
-        TotalExpectedIncome
-        TotalRealIncome
-        TotalExpectedOutcome
-        TotalRealOutcome
-        ExpectedRemain
-        RealRemain
-
-
+* [x] ItemGroup
+* [x] Item
+* [x] Project_Report
 
 
 
