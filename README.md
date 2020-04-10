@@ -15,7 +15,13 @@ Every Record will have:
 * [x] Report
 * [x] ItemGroup
 * [x] Item
-* [x] Project_Report
+* [x] Item_type
+* [x] Project_report
+* [x] state
+* [x] country
+* [x] currency
+* [x] location
+
 
 
 
