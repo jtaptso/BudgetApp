@@ -12,10 +12,11 @@ Every Record will have:
 
 * [x] User
 * [x] Project
+* [x] Project_type (Business, private, inventory)
 * [x] Report
 * [x] ItemGroup
 * [x] Item
-* [x] Item_type
+* [x] Item_type (Asset(depense), Revenu(liability))
 * [x] Project_report
 * [x] state
 * [x] country

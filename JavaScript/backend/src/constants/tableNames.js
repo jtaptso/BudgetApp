@@ -1,6 +1,7 @@
 module.exports = {
     user: 'user',
     project: 'project',
+    project_type: 'project_type',
     itemGroup: 'itemGroup',
     item: 'item',
     report: 'report',
@@ -9,5 +10,5 @@ module.exports = {
     state: 'state',
     country: 'country',
     currency: 'currency',
-    location: 'location'
+    location: 'location',
 };
