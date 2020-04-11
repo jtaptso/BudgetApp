@@ -24,6 +24,10 @@ function url(table, columName){
     table.string(columName, 2000);
 }
 
+/**
+ * @param {Knex} knex
+ */
+
 exports.up = async (knex) => {
     await Promise.all([
         knex.schema.createTable(tableNames.user, (table) => {
@@ -64,10 +68,7 @@ exports.up = async (knex) => {
         }),
     ]);
 
-    /* "id" serial,
-  "Name/date" text,
-  "User_id" number,
-  PRIMARY KEY ("id") */
+    
   await knex.schema.createTable(tableNames.project, (table) => {
       table.increments().notNullable();
       references(table, tableNames.user);
